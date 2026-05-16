@@ -1,3 +1,4 @@
+![Day-and-Date-16-5-26 Banner](Day-and-Date-16-5-26.png)
 # Day and Date
 
 A web application that displays the current Gregorian date and the corresponding day of the week.
