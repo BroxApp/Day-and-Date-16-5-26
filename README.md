@@ -7,7 +7,7 @@ A web application that displays the current Gregorian date and the corresponding
 - Day of the week display.
 - Current Gregorian date (Year/Month/Day).
 - Interactive button to trigger the display.
-- Clean RTL (Right-to-Left) support.
+- Simple and clean user interface.
 
 ## Technologies Used
 - HTML5

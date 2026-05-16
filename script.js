@@ -8,8 +8,8 @@ showDateBtn.addEventListener('click',()=>{
 
     const dayName = daysOfWeek[now.getDay()];
     const year = now.getFullYear();
-    const month = now.getMonth() + 1; // getMonth() is zero-based
-    const date = now.getDate();
+    const month = String(now.getMonth() + 1).padStart(2, '0'); // Ensures 2 digits
+    const date = String(now.getDate()).padStart(2, '0');       // Ensures 2 digits
   
     dateDisplay.textContent = `Today is ${dayName}, ${year}/${month}/${date}`;
 });
